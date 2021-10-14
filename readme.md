@@ -1,7 +1,7 @@
 # Movie
 
-You can see it [here](https://askashin.github.io/gabooo/).
+You can see it [here](https://askashin.github.io/movie/).
 
-Start: 13.09.21
+Start: 14.10.21
 
-End: 20.09.21
+End: WIP
