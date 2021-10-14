@@ -43,13 +43,31 @@
                 line-height: 23px;
                 font-weight: 300;
             }
-            .buttons {
+            div {
+                padding-top: 40px;
+                gap: 25px;
+                font-size: 12px;
+                a {
+                    display: block;
+                    text-transform: uppercase;
+                    height: 42px;
+                    line-height: 42px;
+                    border-radius: 19px;
+                    padding: 0 25px;
+                    i{
+                        padding-right: 5px;
+                    }
+                    &.play {
+                        background-color: $red-button;
+                    }
+                    &.add {
+                        background-color: $black;
+                    }
+                }
             }
         }
         .banner {
             margin-right: 120px;
-            img {
-            }
         }
     }
 }
