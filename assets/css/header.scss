@@ -1,0 +1,54 @@
+@import "colors";
+
+.main {
+    .container {
+        justify-content: space-between;
+        padding-top: 2.125rem;
+        .logo {
+            padding-top: 5px;
+            a {
+            }
+        }
+        nav {
+            padding-top: 9px;
+            ul {
+                justify-content: space-between;
+                gap: 2.312rem;
+
+                li {
+                    display: inline-block;
+                    a {
+                    }
+                }
+            }
+        }
+        .wrapper {
+            form {
+                position: relative;
+
+                input {
+                    background-color: transparent;
+                    color: $red;
+                    border: none;
+                    border-bottom: 1px solid $red;
+                }
+                button {
+                    position: absolute;
+                    top: 2px;
+                    right: 2px;
+                    background-color: transparent;
+                    border: none;
+                    color: $red;
+                }
+            }
+            .login {
+                margin-left: 2rem;
+                .btn {
+                }
+                .btn-red {
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}
